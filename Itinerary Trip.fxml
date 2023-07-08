@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menuwindow.ItineraryTripController">
+   <children>
+      <ImageView fx:id="Picture" fitHeight="500.0" fitWidth="607.0" pickOnBounds="true">
+         <image>
+            <Image url="@photo_2021-11-29_19-05-25.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="label1" layoutX="235.0" layoutY="14.0" prefHeight="33.0" prefWidth="207.0" text="Let's Hike!" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="120.0" layoutY="64.0" prefHeight="32.0" prefWidth="368.0" text="Itinerary of AL-ULA trip:" textFill="#1d0000">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="91.0" layoutY="176.0" prefHeight="20.0" prefWidth="329.0" text="GATHERING POINT IN OLD TOWN OF  AL-ULA" textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="91.0" layoutY="196.0" prefHeight="17.0" prefWidth="105.0" text="4 FEB , 8:00am" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="label5" layoutX="90.0" layoutY="230.0" prefHeight="17.0" prefWidth="155.0" text="Madain Saleh " textFill="#fdfbfb">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label6" layoutX="88.0" layoutY="250.0" text="STOP: two nights, for Tantora Festival and camping " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="label7" layoutX="91.0" layoutY="278.0" prefHeight="17.0" prefWidth="65.0" text="Hegra" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label8" layoutX="88.0" layoutY="298.0" prefHeight="17.0" prefWidth="357.0" text="STOP: one night astronomy, space and Nabataean civilization." textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="label9" layoutX="91.0" layoutY="327.0" prefHeight="17.0" prefWidth="83.0" text="jabal Alfil" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label10" layoutX="88.0" layoutY="347.0" text="STOP: 3 hours " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="label11" layoutX="91.0" layoutY="398.0" prefHeight="20.0" prefWidth="329.0" text="GET BACK TO THE GATHERING POINT " textFill="#f8f5f5">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="label12" layoutX="97.0" layoutY="418.0" text="7 FEB, 15:30 " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="Back" layoutX="482.0" layoutY="435.0" mnemonicParsing="false" onAction="#backaction" prefHeight="25.0" prefWidth="71.0" text="BACK" />
+      <Button fx:id="Exit" layoutX="396.0" layoutY="435.0" mnemonicParsing="false" onAction="#ExitAction" prefHeight="25.0" prefWidth="71.0" text="EXIT" />
+   </children>
+</AnchorPane>

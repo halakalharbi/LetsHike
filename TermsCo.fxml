@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="panel" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: #d2be93;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menuwindow.TermsCoController">
+   <children>
+      <ImageView fx:id="TermsPics" fitHeight="510.0" fitWidth="656.0" layoutX="-3.0" layoutY="-5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@letshikee.png" />
+         </image>
+         <effect>
+            <GaussianBlur radius="3.0" />
+         </effect>
+      </ImageView>
+      <Label fx:id="LetsHike2" layoutX="243.0" layoutY="14.0" text="Let's Hike!" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="TermsCo" layoutX="198.0" layoutY="48.0" text="Terms &amp; Condition">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="Cond" layoutX="29.0" layoutY="97.0" text="Let's Hike ! (we, us) strives to provide its customers (you) with an enjoyable and safe trip.&#10;&#10;Occasionally unforeseen circumstances (including adverse weather conditions, mechanic faults,&#10;or an insufficient number of passengers for us to run the trip) require us to alter routes, itineraries, &#10;vehicle types, fares, days of operation or even cancel tours.  We retain the right to do any of these&#10; things without notice (however, where practical we will endeavour to provide you with&#10; notice of alterations or cancellations).&#10;If Let's Hike ! cancels a trip, we will work with you to book you on a trip on a different date.&#10; If however you are not able to attend a trip on a different date, we will provide you with a &#10;refund of any trip fares already paid. To the extent permitted by law, no refunds will be provided&#10; due to alterations to any aspect of the trip.&#10;&#10;If you cancel a trip booking at least 7 days in advance of the trip, we will provide you with&#10; your choice of a refund of any trip fares already paid, or a credit note for a future trip. &#10; No refund will be provided for cancellations within 7 days of the trip date.&#10;" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="Agree" layoutX="178.0" layoutY="367.0" mnemonicParsing="false" onAction="#AgreeAction" text="Agree to all the Terms &amp; Conditions">
+         <font>
+            <Font name="System Bold Italic" size="13.0" />
+         </font>
+      </RadioButton>
+      <ButtonBar fx:id="BB" layoutX="199.0" layoutY="397.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button fx:id="Ex" mnemonicParsing="false" onAction="#ExAction" text="Exit" />
+            <Button fx:id="Payment" mnemonicParsing="false" onAction="#PaymentAction" text="Payment">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font>
+            </Button>
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menuwindow.THANKUController">
+   <children>
+      <ImageView fx:id="Picture" fitHeight="500.0" fitWidth="600.0" pickOnBounds="true">
+         <image>
+            <Image url="@photo_2021-11-28_03-57-22.jpg" />
+         </image>
+         <effect>
+            <GaussianBlur radius="5.0" />
+         </effect>
+      </ImageView>
+      <Label fx:id="label1" layoutX="238.0" layoutY="14.0" prefHeight="30.0" prefWidth="124.0" text="Let's Hike!" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="label2" layoutX="148.0" layoutY="294.0" prefHeight="27.0" prefWidth="451.0" text="TO BE PART OF YOUR ADVENTURE" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="label3" layoutX="155.0" layoutY="459.0" prefHeight="17.0" prefWidth="406.0" text="For further information, please do not hesitate to contact us" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="9.0" />
+         </font>
+      </Label>
+      <Label fx:id="label4" layoutX="243.0" layoutY="477.0" text="LetsHike@yahoo.com" textFill="WHITE" />
+      <Label fx:id="label5" layoutX="136.0" layoutY="250.0" text="THANK YOU FOR CHOOSING LET'S HIKE " textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="label6" layoutX="164.0" layoutY="163.0" prefHeight="30.0" prefWidth="271.0" text="YOUR TRIP IS APPROVED! " textFill="#070000">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

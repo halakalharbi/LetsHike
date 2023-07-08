@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.GaussianBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menuwindow.InvoiceController">
+   <children>
+      <ImageView fx:id="picture1" fitHeight="500.0" fitWidth="607.0" layoutX="-3.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@photo_2021-11-28_03-57-22.jpg" />
+         </image>
+         <effect>
+            <GaussianBlur radius="5.0" />
+         </effect>
+      </ImageView>
+      <Label fx:id="Label1" layoutX="196.0" layoutY="27.0" prefHeight="31.0" prefWidth="129.0" text="Let's Hike!" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label2" layoutX="37.0" layoutY="286.0" prefHeight="21.0" prefWidth="167.0" text="Total Price:  2999SAR" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="Next" layoutX="458.0" layoutY="350.0" mnemonicParsing="false" onAction="#NextAction" prefHeight="25.0" prefWidth="72.0" text="NEXT " />
+      <Label fx:id="Label3" layoutX="202.0" layoutY="61.0" prefHeight="34.0" prefWidth="117.0" text="INVOICE: ">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label4" layoutX="37.0" layoutY="258.0" prefHeight="21.0" prefWidth="167.0" text="TAX 10% : 299.9SAR" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label5" layoutX="37.0" layoutY="225.0" prefHeight="21.0" prefWidth="167.0" text="PRICE: 2699SAR" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="Visa" fitHeight="34.0" fitWidth="63.0" layoutX="37.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1611773687496.visa_logo_400x150.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="MaterCard" fitHeight="34.0" fitWidth="52.0" layoutX="114.0" layoutY="319.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@MasterCard_Logo.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barcode" fitHeight="113.0" fitWidth="78.0" layoutX="455.0" layoutY="258.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@ALULA.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="paypal" fitHeight="24.0" fitWidth="125.0" layoutX="177.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@paypalLOGO.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="TXT" layoutX="114.0" layoutY="95.0" text="Payment will be via a link sent through your E-mail.&#10;" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
